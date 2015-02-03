@@ -8,4 +8,4 @@ env:
 install: 
     - source install.sh
 script:
-    - conda build conda-recipe --quite
+    - conda build conda-recipe
