@@ -6,7 +6,7 @@ env:
         - python=2.7 CONDA_PY=27 CONDA_NPY=18    
 
     global:
-        - secure: "f7pGoABUzHv1LUaYJcw1mWj3UGgQ6E5CpR2jlJ2Gqo5l+gqQYbn8+LYz4w4MO8gRmziAinBU69FvITgwFu79HGkomJZpbq7AmBSXNlTcD6VIVKvZiVzvGlBRpzSug1uXIAPSs3AxWa2kd5fUfavKhn4dnB5r9RHtvEFWYk4wyJM="
+        - secure: "UK18yhNwiK6MNctRm9FBq4k7HlOeadHaoy1FTUSn+v+O9JAyPvnUlImmADmMjGxpgjWEkmTsAgBqAMWtRuSD/hluNFv7RCGso/K7xzB9otySdatC4rRwuBddiJLDBinapdzGNTVo/GTN69CCRufMK9fApxmRjrAqD0oiPkbJpt8="
 
 
 install: 
