@@ -8,3 +8,6 @@ export PATH=/Users/travis/miniconda/bin:$PATH
 conda update --yes conda
 conda install --yes pip conda-build jinja2 binstar
 conda config --add channels https://conda.binstar.org/jjhelmus
+
+# break gfortran
+rm /usr/local/bin/gfor*
