@@ -1,0 +1,11 @@
+language:
+    - objective-c
+
+env:
+    matrix:
+        - python=2.7 CONDA_PY=27 CONDA_NPY=18    
+
+install: 
+    - source install.sh
+script:
+    - conda build conda-recipe --quite

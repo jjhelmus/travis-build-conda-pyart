@@ -1,0 +1,32 @@
+package:
+    name: pyart
+    version: 1.2.0
+
+source:
+    fn: arm_pyart-1.2.0.tar.gz
+    fn: https://pypi.python.org/packages/source/a/arm_pyart/arm_pyart-1.2.0.tar.gz
+    md5: a61bef039eb6b48380186a00ab29b50b
+
+build:
+    number: 0
+
+requirements:
+    build:
+        - python
+        - numpy
+        - trmm_rsl
+
+    run:
+        - python
+        - numpy
+        - scipy
+        - matplotlib
+        - netcdf4
+
+test:
+    imports:
+        - pyart
+
+about:
+    home: http://arm-doe.github.io/pyart/
+    license: BSD
