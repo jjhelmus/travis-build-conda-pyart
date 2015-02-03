@@ -3,7 +3,7 @@ MINICONDA_FILE="Miniconda3-3.8.3-MacOSX-x86_64.sh"
 wget "${MINICONDA_URL}/${MINICONDA_FILE}"
 bash $MINICONDA_FILE -b
 
-export PATH=$HOME/miniconda/bin:$PATH
+export PATH=/Users/travis/miniconda/bin:$PATH
 
 conda update --yes conda
 conda install --yes pip conda-build jinja2 binstar
