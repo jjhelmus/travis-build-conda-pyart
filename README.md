@@ -4,6 +4,8 @@ travis-build-conda-pyart
 Project for building and uploading Py-ART conda packages for OS X using
 Travis CI.
 
+Currently building conda package for Python 2.7 with Numpy 1.7, 1.8 and 1.9.
+
 Credits
 -------
 This is projects is based upon Robert T. McGibbon's 

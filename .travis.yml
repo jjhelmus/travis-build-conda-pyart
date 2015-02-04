@@ -3,7 +3,9 @@ language:
 
 env:
     matrix:
-        - python=2.7 CONDA_PY=27 CONDA_NPY=18    
+        - python=2.7 CONDA_PY=27 CONDA_NPY=17
+        - python=2.7 CONDA_PY=27 CONDA_NPY=18
+        - python=2.7 CONDA_PY=27 CONDA_NPY=19
 
     global:
         - secure: "cvNteNjK7jluxGWvhp7EinJDa69TuvEAwHP/CrFpGd4u6/KV+ef7gjKvDds5JqnCI5srow8iUf1lwYuJ4c4Lg8SyMizhKzyG9x6AYbfN5W3jKk7bNRTDYkzf8n+JXzOn5i35CbPe/Jp9775ITI5aYmccuM7mfSCDC6kXzhsIWTk="
