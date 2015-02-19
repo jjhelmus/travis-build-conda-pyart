@@ -1,6 +1,6 @@
 package:
     name: pyart
-    version: 1.2.0
+    version: 1.3.0
 
 source:
     fn: arm_pyart-1.3.0.tar.gz
