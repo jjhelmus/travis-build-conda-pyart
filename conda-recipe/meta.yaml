@@ -3,9 +3,9 @@ package:
     version: 1.2.0
 
 source:
-    fn: arm_pyart-1.2.0.tar.gz
-    url: https://pypi.python.org/packages/source/a/arm_pyart/arm_pyart-1.2.0.tar.gz
-    md5: a61bef039eb6b48380186a00ab29b50b
+    fn: arm_pyart-1.3.0.tar.gz
+    url: https://pypi.python.org/packages/source/a/arm_pyart/arm_pyart-1.3.0.tar.gz
+    md5: e40fd8696b014d76043466c5735c4417
 
 build:
     number: 0
