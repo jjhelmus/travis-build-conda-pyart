@@ -1,11 +1,11 @@
 package:
     name: pyart
-    version: 1.3.0
+    version: 1.4.0
 
 source:
-    fn: arm_pyart-1.3.0.tar.gz
-    url: https://pypi.python.org/packages/source/a/arm_pyart/arm_pyart-1.3.0.tar.gz
-    md5: e40fd8696b014d76043466c5735c4417
+    fn: arm_pyart-1.4.0.tar.gz
+    url: https://pypi.python.org/packages/source/a/arm_pyart/arm_pyart-1.4.0.tar.gz
+    md5: d92af9338a0f2ede53f6e2dc22492083
 
 build:
     number: 0
