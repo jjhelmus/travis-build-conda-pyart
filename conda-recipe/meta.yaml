@@ -1,11 +1,11 @@
 package:
     name: pyart
-    version: 1.4.0
+    version: 1.5.0
 
 source:
-    fn: arm_pyart-1.4.0.tar.gz
-    url: https://pypi.python.org/packages/source/a/arm_pyart/arm_pyart-1.4.0.tar.gz
-    md5: d92af9338a0f2ede53f6e2dc22492083
+    fn: arm_pyart-1.5.0.tar.gz
+    url: https://pypi.python.org/packages/source/a/arm_pyart/arm_pyart-1.5.0.tar.gz
+    md5: 8bf5d30d62a43603d34655d68460ae3b
 
 build:
     number: 0
@@ -22,6 +22,7 @@ requirements:
         - scipy
         - matplotlib
         - netcdf4
+        - trmm_rsl
 
 test:
     imports:
