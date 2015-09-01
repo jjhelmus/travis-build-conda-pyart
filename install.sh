@@ -6,7 +6,7 @@ bash $MINICONDA_FILE -b
 export PATH=/Users/travis/miniconda/bin:$PATH
 
 conda update --yes conda
-conda install --yes conda-build jinja2 binstar
+conda install --yes conda-build jinja2 anaconda-client
 conda config --add channels https://conda.binstar.org/jjhelmus
 
 # Remove gfortran so that all fortran Py-ART modules are not built.
