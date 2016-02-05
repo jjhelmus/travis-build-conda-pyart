@@ -10,7 +10,7 @@ env:
         - python=3.5 CONDA_PY=35 CONDA_NPY=19
 
     global:
-        - secure: "cvNteNjK7jluxGWvhp7EinJDa69TuvEAwHP/CrFpGd4u6/KV+ef7gjKvDds5JqnCI5srow8iUf1lwYuJ4c4Lg8SyMizhKzyG9x6AYbfN5W3jKk7bNRTDYkzf8n+JXzOn5i35CbPe/Jp9775ITI5aYmccuM7mfSCDC6kXzhsIWTk="
+        - secure: "N/FR+4gJyaZ8Uo0lpP4bI+wtN4ZO/spQrs/qT93hSrRsO2JJsxQWh3porRBUeu4Em1ABrq4W1oECQ/vXK6/xAQQCX0ylO8GOMB3uCndSWOUgzloT8NSaoidzliuAkwrbAjRYvevpBn2++RwsJW4Pw3Jp9uilHhqDcG5cRzGj0Ys="
 
 install: 
     - source install.sh
