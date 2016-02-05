@@ -3,7 +3,7 @@ MINICONDA_FILE="Miniconda-latest-MacOSX-x86_64.sh"
 wget "${MINICONDA_URL}/${MINICONDA_FILE}"
 bash $MINICONDA_FILE -b
 
-export PATH=/Users/travis/miniconda/bin:$PATH
+export PATH=/Users/travis/miniconda2/bin:$PATH
 
 conda update --yes conda
 conda install --yes conda-build jinja2 anaconda-client
